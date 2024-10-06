@@ -85,3 +85,88 @@ li a:visited{
     background-color: white;
     color: rgba(68, 68, 185, 0.712);
 }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+.topics-title{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1%;
+   
+}
+
+.card{
+    width: 30%;
+    border-radius: 5px;
+    border: solid 1px blue;
+    margin-left: 2%;
+}
+
+.card-title{
+    color: blue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-card-container{
+    text-align: center;
+}
+.img-card{
+    width: 40%;
+
+}
+
+.card-description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 2%;
+}
+
+.card-description:hover{
+    color: rgb(61, 91, 162);
+    font-weight: bold;
+
+}
+
+.container-card-button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 30%;
+    height: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+
+
+footer{
+    display: flex;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 10px;
+}
