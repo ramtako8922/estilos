@@ -67,18 +67,18 @@ li a{
 }
 
 li a:hover{
-    background-color: white;
-    color: rgba(68, 68, 185, 0.712);
+    background-color: blue;
+    color: white;
 }
 
 li a:active{
     background-color: white;
-    color: rgba(68, 68, 185, 0.712);
+    color: rgba(14, 14, 235, 0.712);
 }
 
 li a:visited{
     background-color: white;
-    color: rgba(233, 233, 238, 0.712);
+    color: white
 }
 
 
