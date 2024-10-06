@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,html{
+    height: 100%;      /* propiedad que permite que el contenido ocupe la altura de la pantalla del dispositovo donde se visualiza */ 
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+
+.navbar{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-content: space-around;
+}
+
+.title-blog{
+    width: 60%;
+
+
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+
+.menu-element{
+    display: flex;
+    width: 40%;
+    
+
+}
+
+ul {
+   
+    padding: 0;
+   list-style-type: none;
+    
+    
+     
+}
+
+li{
+   
+    margin-left: 3px;
+    display: inline;
+    
+}
+
+li a{
+    color: white;
+}
+
+li a:hover{
+    background-color: white;
+    color: rgba(68, 68, 185, 0.712);
+}
+
+li a:active{
+    background-color: white;
+    color: rgba(68, 68, 185, 0.712);
+}
+
+li a:visited{
+    background-color: white;
+    color: rgba(68, 68, 185, 0.712);
+}
+
+
+
+
+
+
+.container-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(247, 248, 250, 0.803);
+    background-color: rgb(28, 50, 218);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.main-title{
+    
+    font-size: 16px;
+    
+
+}
+
+.container-content{
+    display: flex;
+    border: solid 2px rgb(21, 105, 216);
+    border-radius: 2%;
+    width: 70%;
+    font-size: 14px;
+    flex-direction: column;
+    margin: 1% auto;
+    padding: 1%;
+    
+
+}
+
+.content{
+
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+
+.container-coment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    
+}
+
+.title-coment{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(38, 38, 212);
+    margin-left: 3%;
+    
+
+}
+
+.box-coment{
+    width: 70%;
+    height: 90px;
+    border-radius: 8px;
+    margin-top: 2%;
+    border: solid rgb(31, 31, 152);
+    margin-left: 3%;
+
+}
+
+.container-button{
+     display: flex;
+     justify-content: right;
+}
+
+.button{
+    margin-top: 1.5%;
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blue;
+    color: aliceblue;
+    margin-right: 25%;
+   
+}
+
+.button:hover{
+    background-color: black;
+    width: 20%;
+    font-size: 20px;
+
+}
+
+footer{
+    display: flex;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+
