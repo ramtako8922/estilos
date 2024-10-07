@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,html{
+    height: 100%;      /* propiedad que permite que el contenido ocupe la altura de la pantalla del dispositovo donde se visualiza */ 
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+
+.navbar{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-content: space-around;
+}
+
+.title-blog{
+    width: 60%;
+
+
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+
+.menu-element{
+    display: flex;
+    width: 40%;
+    
+
+}
+
+ul {
+   
+    padding: 0;
+   list-style-type: none;
+    
+    
+     
+}
+
+li{
+   
+    margin-left: 3px;
+    display: inline;
+    
+}
+
+li a{
+    color: white;
+}
+
+li a:hover{
+    background-color: rgb(19, 10, 147);
+    color: white;
+}
+
+li a:active{
+    background-color: white;
+    color: rgba(68, 68, 185, 0.712);
+}
+
+li a:visited{
+    background-color: white;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+.contact-title{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
