@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temas</title>
-    <link rel="stylesheet" href="/css/temas.css">
+    <link rel="stylesheet" href="/css/contacto.css">
     <link rel="stylesheet" href="">
 </head>
 <body>
@@ -25,11 +25,39 @@
 
       <div class="container">
         <main>
-          <h1 class="topics-title">Contactame</h1>
-          
+          <h1 class="contact-title">Contactame</h1>
+         
          <form action="">
-            
+          <div class="group">
+            <label for="name">Nombre</label>
+            <input class="input" type="text" name="name" required placeholder="Su nombre">
+          
+
+            <label for="lastname">Apellido</label>
+            <input class="input" type="text" name="lastname" required placeholder="Su apellido">
+          
+
+          
+            <label for="lastname">Email</label>
+            <input class="input" type="email" name="email" required placeholder="Su email">
+          
+           
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="8" rows="4"></textarea>
+           
+
+           <div class="button-form">
+            <input class="button" type="submit" value="enviar">
+           </div>
+        </div>
          </form>
+        
+        <section>
+         <h2 class="contact-title map-title">Ubicame</h2>
+         <div class="map-container">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15903.580288193583!2d-73.6926632154691!3d4.788039574438941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3ff74638c449d5%3A0xc12fa819f29dd28d!2sAlemania%2C%20Jun%C3%ADn%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1728353580611!5m2!1ses!2sco" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </section>
         </main>
 
         </div>
